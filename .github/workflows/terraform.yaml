@@ -12,23 +12,23 @@ on:
         - true
         - false
 
-        plan_destroy:
-          description: 'Planejar o destroy do ambiente?'
-          required: true
-          default: 'false'
-          type: choice
-          options:
-          - true
-          - false
+      plan_destroy:
+        description: 'Planejar o destroy do ambiente?'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+        - true
+        - false
 
-        destroy:
-          description: 'Destruir ambiente?'
-          required: true
-          default: 'false'
-          type: choice
-          options:
-          - true
-          - false
+      destroy:
+        description: 'Destruir ambiente?'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+        - true
+        - false
 
 
 permissions:
